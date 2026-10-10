@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Modo Diablo — Distribuidora de bebidas · C.A.B.A.</title>
+    <meta name="description" content="Distribuidora de bebidas en C.A.B.A.: whisky, vodka, champagne, tequila y más. Elegí tu botella, pedila por WhatsApp y coordinamos la entrega. Venta solo a mayores de 18 años." />
+    <meta name="theme-color" content="#0B0B0D" />
+    <meta property="og:title" content="Modo Diablo — Que la noche no se apure" />
+    <meta property="og:description" content="Distribuidora de bebidas en C.A.B.A. Pedí tu botella por WhatsApp. Solo mayores de 18." />
+    <meta property="og:image" content="/video/brindis-still.jpg" />
+    <meta property="og:locale" content="es_AR" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LiquorStore",
+        "name": "Modo Diablo Distribuidora",
+        "url": "https://www.mododiablodistribuidora.com.ar/",
+        "telephone": "+5491165202310",
+        "email": "ventas@mododiablodistribuidora.com.ar",
+        "address": { "@type": "PostalAddress", "streetAddress": "Av. Sáenz 426", "addressLocality": "Ciudad Autónoma de Buenos Aires", "addressCountry": "AR" }
+      }
+    </script>
+    <link rel="icon" href="/img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a href="#top" class="top__logo" aria-label="Modo Diablo — inicio"><img src="/img/logo.png" alt="Modo Diablo" width="164" height="55" /></a>
+      <nav class="top__nav" aria-label="Principal">
+        <a href="https://www.mododiablodistribuidora.com.ar/?utm_source=landing&utm_medium=web&utm_campaign=noche" class="top__link" data-cta="header-tienda" rel="noopener">Tienda</a>
+        <button type="button" class="btn btn--line" data-order data-cta="header-pedir">Pedir</button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <!-- 1 + 2 · HERO y "Frená el tiempo": un solo escenario fijo; el scroll frena el video hasta congelar el brindis -->
+      <section class="stage" id="stage" aria-label="Que la noche no se apure">
+        <div class="stage__sticky">
+          <img class="stage__still" src="/video/brindis-still.jpg" alt="" fetchpriority="high" />
+          <video class="stage__video" muted loop playsinline preload="auto" poster="/video/brindis-still.jpg"></video>
+          <div class="stage__shade" aria-hidden="true"></div>
+
+          <div class="hero">
+            <p class="kicker">Distribuidora de bebidas · C.A.B.A.</p>
+            <h1 class="hero__title"><span>Que la noche</span> <em>no se apure.</em></h1>
+            <p class="hero__lead">Whisky, vodka, champagne, tequila y más. Elegí tu botella, pedila por WhatsApp y coordinamos la entrega.</p>
+            <div class="hero__cta">
+              <button type="button" class="btn btn--red" data-order data-cta="hero-pedir">Pedir por WhatsApp</button>
+              <a href="https://www.mododiablodistribuidora.com.ar/?utm_source=landing&utm_medium=web&utm_campaign=noche" class="btn btn--line" data-cta="hero-tienda" rel="noopener">Ver la tienda</a>
+            </div>
+            <p class="hero__micro">Al pedir confirmás que sos mayor de 18 años.</p>
+            <p class="hero__strip" data-strip aria-live="polite"></p>
+            <a href="#vitrina" class="hero__scroll" aria-label="Ir a la vitrina">Frená el tiempo <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <div class="freeze" aria-hidden="true">
+            <p class="freeze__line" data-step="0">Hay un segundo que querés que dure.</p>
+            <p class="freeze__line freeze__line--big" data-step="1">Ese.</p>
+            <p class="freeze__line" data-step="2">Ahora elegí con qué lo brindás.<a href="#vitrina" class="freeze__go">Ir a la vitrina ↓</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3 · La vitrina de hoy -->
+      <section class="vitrina" id="vitrina">
+        <div class="wrap">
+          <header class="head reveal">
+            <p class="label">La vitrina de hoy</p>
+            <h2 class="h2">Marcas que conocés, al precio de la tienda.</h2>
+            <p class="head__lead">Tocá <strong>Pedir</strong> y se abre WhatsApp con tu pedido ya escrito.</p>
+          </header>
+          <ul class="cards" data-cards></ul>
+          <p class="fine">Precios de la tienda al <span data-fecha>09/10/2026</span>. Pueden cambiar; stock y entrega se confirman por WhatsApp. Imágenes ilustrativas.</p>
+          <p class="more"><a href="https://www.mododiablodistribuidora.com.ar/?utm_source=landing&utm_medium=web&utm_campaign=noche" data-cta="catalogo" rel="noopener">Ver todo el catálogo →</a></p>
+        </div>
+      </section>
+
+      <!-- 4 · Un poco de diablo -->
+      <section class="diablo" aria-label="Un poco de diablo">
+        <div class="wrap">
+          <h2 class="diablo__title reveal">Un poco<br />de diablo.</h2>
+          <p class="diablo__tag reveal">Siempre con moderación.</p>
+          <p class="diablo__copy reveal">Somos Modo Diablo, distribuidora de bebidas de la Ciudad. Marcas que conocés y la noche resuelta, sin vueltas.</p>
+        </div>
+      </section>
+
+      <!-- 5 · Elegí tu modo -->
+      <section class="modo" id="modo">
+        <div class="wrap">
+          <header class="head reveal">
+            <p class="label">Elegí tu modo</p>
+            <h2 class="h2">Todo el catálogo, por rubro.</h2>
+          </header>
+          <ol class="rubros" data-rubros></ol>
+        </div>
+      </section>
+
+      <!-- 6 · Así de simple -->
+      <section class="simple" id="simple">
+        <div class="wrap">
+          <header class="head reveal">
+            <p class="label">Así de simple</p>
+            <h2 class="h2">Tres pasos y la noche está resuelta.</h2>
+          </header>
+          <ol class="steps">
+            <li class="reveal"><span class="steps__n">01</span><h3>Elegí tu botella</h3><p>En la vitrina o en la tienda. Todo lo que ves está en el catálogo.</p></li>
+            <li class="reveal"><span class="steps__n">02</span><h3>Pedila por WhatsApp</h3><p>Se abre el chat con tu pedido ya escrito. Nosotros te respondemos.</p></li>
+            <li class="reveal"><span class="steps__n">03</span><h3>Coordinamos con vos</h3><p>Disponibilidad, pago y entrega. Vendemos solo a mayores de 18 y te pedimos el DNI al recibir.</p></li>
+          </ol>
+          <ul class="contact reveal">
+            <li><span class="label">WhatsApp</span><a href="#" data-wa-link data-cta="contacto-wa">11-6520-2310</a></li>
+            <li><span class="label">Email</span><a href="mailto:ventas@mododiablodistribuidora.com.ar" data-cta="contacto-mail">ventas@mododiablodistribuidora.com.ar</a></li>
+            <li><span class="label">Dirección</span><span>Av. Sáenz 426, C.A.B.A.</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 7 · Tu noche, tu modo -->
+      <section class="cierre" aria-label="Tu noche, tu modo">
+        <div class="wrap cierre__in">
+          <img class="cierre__frase reveal" src="/img/frase.png" alt="Tu noche, tu modo" width="600" height="292" />
+          <button type="button" class="btn btn--red btn--lg reveal" data-order data-cta="cierre-pedir">Pedir por WhatsApp</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap foot__in">
+        <img src="/img/logo.png" alt="Modo Diablo" width="164" height="55" class="foot__logo" />
+        <div class="foot__legal">
+          <p class="foot__ley">PROHIBIDA LA VENTA DE BEBIDAS ALCOHOLICAS A MENORES DE 18 AÑOS — LEY NACIONAL DE LUCHA CONTRA EL ALCOHOLISMO — Nº 24.788</p>
+          <!-- Mensaje sanitario CABA (Ley 5.708): validar con el asesor del cliente texto, tamaño y si aplica a sitios web. -->
+          <p class="foot__sanitario">El consumo excesivo de alcohol es perjudicial para la salud.</p>
+          <p class="foot__small">Beber con moderación. Entregamos solo a mayores de 18 años con DNI. Av. Sáenz 426, C.A.B.A. · <!-- TODO cliente: razón social, CUIT, Data Fiscal, Defensa del Consumidor y botón de arrepentimiento --></p>
+          <p class="foot__small">Videos de ambiente generados con IA. Imágenes de producto ilustrativas; marcas de sus respectivos titulares.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Leyenda legal fija en toda la página -->
+    <div class="legal" role="note">
+      <span class="legal__seal">+18</span>
+      <p>BEBER CON MODERACIÓN. PROHIBIDA SU VENTA A MENORES DE 18 AÑOS.</p>
+    </div>
+
+    <!-- Hoja +18 al tocar "Pedir" (fricción, no verificación: el control real es el DNI en la entrega) -->
+    <div class="sheet" data-sheet hidden>
+      <div class="sheet__box" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+        <h2 id="sheet-title" class="sheet__title">Un dato antes de pedir.</h2>
+        <p class="sheet__text" data-sheet-text>Vendemos solo a mayores de 18 años. Te vamos a pedir el DNI al recibir tu pedido.</p>
+        <div class="sheet__actions" data-sheet-actions>
+          <button type="button" class="btn btn--red" data-sheet-yes>Soy mayor de 18, seguir</button>
+          <button type="button" class="btn btn--line" data-sheet-no>Todavía no</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

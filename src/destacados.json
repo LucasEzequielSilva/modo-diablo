@@ -1,0 +1,78 @@
+{
+ "fecha": "2026-10-09",
+ "fuente": "https://www.mododiablodistribuidora.com.ar/",
+ "destacados": [
+  {
+   "name": "Blue Label",
+   "cat": "WHISKY",
+   "price": 295000,
+   "old": 300000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/blue-label_10762.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/MD021.jpg",
+   "file": "/img/p/blue-label.jpg",
+   "bytes": 155704,
+   "title": "Johnnie Walker Blue Label",
+   "rubro": "Whisky"
+  },
+  {
+   "name": "Veuve clicquot brut",
+   "cat": "CHAMPAGNE",
+   "price": 115000,
+   "old": 125000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/champagne_117/champagne_657/veuve-clicquot-brut_28441.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002111101_38335066.jpeg",
+   "file": "/img/p/veuve-clicquot-brut.jpg",
+   "bytes": 26331,
+   "title": "Veuve Clicquot Brut",
+   "rubro": "Champagne"
+  },
+  {
+   "name": "Roberto Cavalli",
+   "cat": "VODKA",
+   "price": 100000,
+   "old": 140000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/vodka_132/vodka_654/roberto-cavalli_28485.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002131641_15041228.jpg",
+   "file": "/img/p/roberto-cavalli.jpg",
+   "bytes": 25434,
+   "title": "Roberto Cavalli",
+   "rubro": "Vodka"
+  },
+  {
+   "name": "Jack Daniel's  Clásico n7",
+   "cat": "WHISKY",
+   "price": 34000,
+   "old": 37000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/jack-daniels-clasico-n7_28360.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20240518101445_15540325.jpg",
+   "file": "/img/p/jack-daniel-s-cl-sico-n7.jpg",
+   "bytes": 26759,
+   "title": "Jack Daniel's Clásico N°7",
+   "rubro": "Whisky"
+  },
+  {
+   "name": "Danzka Classic",
+   "cat": "VODKA",
+   "price": 15000,
+   "old": 20000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/vodka_132/vodka_654/danzka-classic_10767.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/64cbfeadf0332_1691090605-9839.jpeg",
+   "file": "/img/p/danzka-classic.jpg",
+   "bytes": 16947,
+   "title": "Danzka Classic",
+   "rubro": "Vodka"
+  },
+  {
+   "name": "Johnnie Walker 18 años",
+   "cat": "WHISKY",
+   "price": 150000,
+   "old": 170000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/johnnie-walker-18-anos_28392.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20240820185857_16853974.jpg",
+   "file": "/img/p/johnnie-walker-18-a-os.jpg",
+   "bytes": 29403,
+   "title": "Johnnie Walker 18 años",
+   "rubro": "Whisky"
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "fecha": "2026-10-09",
+ "fuente": "https://www.mododiablodistribuidora.com.ar/",
+ "items": [
+  {
+   "name": "Green Label",
+   "cat": "WHISKY",
+   "price": 120000,
+   "old": 134000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/green-label_28465.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002123135_81149934.jpeg",
+   "file": "/img/p/green-label.jpg",
+   "bytes": 58569
+  },
+  {
+   "name": "Blue Label",
+   "cat": "WHISKY",
+   "price": 295000,
+   "old": 300000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/blue-label_10762.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/MD021.jpg",
+   "file": "/img/p/blue-label.jpg",
+   "bytes": 155704
+  },
+  {
+   "name": "Cambiado Malbec 2020",
+   "cat": "VINOS",
+   "price": 3300,
+   "old": 4500,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/vinos_119/vinos_667/cambiado-malbec-2020_28493.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002134608_18065306.png",
+   "file": "/img/p/cambiado-malbec-2020.jpg",
+   "bytes": 109053
+  },
+  {
+   "name": "José Cuervo Reposado dorado",
+   "cat": "TEQUILA",
+   "price": 30000,
+   "old": 26000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/tequila_134/tequila_653/jose-cuervo-reposado-dorado_28478.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002130228_37945522.jpeg",
+   "file": "/img/p/jos-cuervo-reposado-dorado.jpg",
+   "bytes": 27623
+  },
+  {
+   "name": "Veuve clicquot brut",
+   "cat": "CHAMPAGNE",
+   "price": 115000,
+   "old": 125000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/champagne_117/champagne_657/veuve-clicquot-brut_28441.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002111101_38335066.jpeg",
+   "file": "/img/p/veuve-clicquot-brut.jpg",
+   "bytes": 26331
+  },
+  {
+   "name": "Louis Roederer 2017",
+   "cat": "CHAMPAGNE",
+   "price": 100000,
+   "old": 120000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/champagne_117/champagne_657/louis-roederer-2017_28449.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002113615_13275127.jpeg",
+   "file": "/img/p/louis-roederer-2017.jpg",
+   "bytes": 43201
+  },
+  {
+   "name": "Jack Daniel´s Gentleman",
+   "cat": "WHISKY",
+   "price": 45000,
+   "old": 50000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/jack-daniels-gentleman_28471.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002124627_29166812.jpeg",
+   "file": "/img/p/jack-daniel-s-gentleman.jpg",
+   "bytes": 26091
+  },
+  {
+   "name": "Wild África",
+   "cat": "LICORES",
+   "price": 20000,
+   "old": 25000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/licores_115/licores_652/wild-africa_28487.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002131740_14076231.jpeg",
+   "file": "/img/p/wild-frica.jpg",
+   "bytes": 30015
+  },
+  {
+   "name": "Roberto Cavalli",
+   "cat": "VODKA",
+   "price": 100000,
+   "old": 140000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/vodka_132/vodka_654/roberto-cavalli_28485.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002131641_15041228.jpg",
+   "file": "/img/p/roberto-cavalli.jpg",
+   "bytes": 25434
+  },
+  {
+   "name": "NUVO",
+   "cat": "VODKA",
+   "price": 60000,
+   "old": 65000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/vodka_132/vodka_654/nuvo_10814.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/MD073.jpg",
+   "file": "/img/p/nuvo.jpg",
+   "bytes": 18360
+  },
+  {
+   "name": "Danzka Classic",
+   "cat": "VODKA",
+   "price": 15000,
+   "old": 20000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/vodka_132/vodka_654/danzka-classic_10767.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/64cbfeadf0332_1691090605-9839.jpeg",
+   "file": "/img/p/danzka-classic.jpg",
+   "bytes": 16947
+  },
+  {
+   "name": "Jack Daniel's  Clásico n7",
+   "cat": "WHISKY",
+   "price": 34000,
+   "old": 37000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/jack-daniels-clasico-n7_28360.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20240518101445_15540325.jpg",
+   "file": "/img/p/jack-daniel-s-cl-sico-n7.jpg",
+   "bytes": 26759
+  },
+  {
+   "name": "Johnnie Walker 18 años",
+   "cat": "WHISKY",
+   "price": 150000,
+   "old": 170000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/whisky_118/whisky_664/johnnie-walker-18-anos_28392.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20240820185857_16853974.jpg",
+   "file": "/img/p/johnnie-walker-18-a-os.jpg",
+   "bytes": 29403
+  },
+  {
+   "name": "Fernet Branca",
+   "cat": "Aperitivos",
+   "price": 15000,
+   "old": 16000,
+   "url": "https://www.mododiablodistribuidora.com.ar/productos/aperitivos_144/aperitivos_797/fernet-branca_28451.html",
+   "img": "https://cdn.plantheoshops.com.ar/imagenes/11/20261002114342_23325242.jpeg",
+   "file": "/img/p/fernet-branca.jpg",
+   "bytes": 39958
+  }
+ ]
+}
