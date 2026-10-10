@@ -15,15 +15,14 @@ todo termina en WhatsApp. La landing no cobra: lleva a "Pedir por WhatsApp" (men
   Codificado para scrub en public/video (brindis.mp4 1600w, brindis-mobile.mp4 720w, posters).
 - 1 imagen + 1 clip de 5 s gastados. Quedan sin generar: vertido, brindis 9:16, niebla roja (opcionales).
 
-## Estado al cierre (2026-10-09)
-- Maqueta COMPILADA y probada en navegador (escritorio 1440 y celular 390): hero, "Frená el tiempo" (FREEZE_T = 3.9 s), vitrina, "Un poco de diablo",
-  rubros, "Así de simple", cierre, pie legal, barra +18 fija, hoja +18 y apertura de WhatsApp (una sola llamada, con el pedido armado).
-- Entregable: dist/ y modo-diablo-maqueta.zip (6,8 MB). Repo git local, sin remoto todavía.
-- Bugs corregidos en QA: desborde horizontal en celular (recuadro sanitario del pie), sticky roto por overflow en html, anchos desparejos y fotos gigantes en la vitrina, relleno del título "Un poco de diablo".
-- El disco C: llegó a 0 GB libres durante la sesión (caché de npm 17 GB, pnpm 9,7 GB): conviene limpiar.
+## Estado al cierre (2026-10-10)
+- Maqueta con la revisión del panel aplicada (P1 + P2), compilada y probada en Chrome (escritorio 1440 y celular emulado 390): clip vertical en celular, leyenda legal más grande, pie legal unificado, "Frená el tiempo" con botón, hoja +18 con foco, favicon propio, og.jpg 1200x630, noindex.
+- Gastado en Higgsfield para este proyecto: 2 imágenes + 2 clips de 5 s (brindis 16:9 y 9:16).
+- Commits locales listos (snapshot 83cb50c + revisión). NO pusheados: el repo https://github.com/LucasEzequielSilva/modo-diablo es PÚBLICO y tiene docs/ y memory/ con análisis legal. Primero hay que pasarlo a privado (Settings > Danger Zone) y recién ahí hacer push.
+- Disco C: limpiado (0 → 19 GB libres: caché de npm 17 GB, pnpm, pip).
 
 ## Próximos pasos
-1. Crear repo en GitHub y conectar con Vercel (o soltar dist/ en Vercel Drop) para tener el link de la maqueta.
-2. Mandar el link + las preguntas (open-questions.md) al cliente.
-3. Clips pendientes (opcionales): brindis 9:16 para celular, vertido, niebla roja. Hoy el celular recorta el 16:9.
-4. Vectorizar logo/frase y pedir fotos originales; catálogo vivo; medición.
+1. Usuario: pasar el repo a privado y avisar; después git push y deploy en Vercel.
+2. Mirar la maqueta en un celular real (scroll hasta "Ese.") y ajustar FREEZE_T si hace falta.
+3. Mandar link + preguntas al cliente (open-questions.md). Cuando lleguen datos: ofertas con fechas, razón social/CUIT, botón de arrepentimiento, WhatsApp Business, fotos originales.
+4. Opcional: clips "vertido" (título "Un poco de diablo") y "niebla roja"; vectorizar logo.

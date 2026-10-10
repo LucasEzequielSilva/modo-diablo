@@ -18,6 +18,20 @@ const T2V = "/kling-video/v2.5-turbo/pro/text-to-video";
 const NEG = "text, letters, logo, label, brand name, bottle, people, hands, face, fingers, cuts, scene change, shaky camera, blurry, low quality, cartoon, deformed glass, watermark";
 
 const SHOTS = {
+  // Versión vertical 9:16 para celular (la mayoría del tráfico): los vasos arriba y el tercio inferior negro para el texto.
+  "brindis-v": {
+    still: {
+      aspect_ratio: "9:16",
+      prompt: `Ultra cinematic macro photograph for a premium spirits campaign, vertical composition: two heavy crystal whisky tumblers with large clear ice cubes clinking together in mid-air at the exact moment of impact, centered in the upper-middle of the frame, amber whisky splashing, tiny droplets frozen in the air. Warm amber backlight with a thin crimson red rim light on the glass edges. Very dark moody bar background with soft amber bokeh. The bottom third of the frame is deep black empty space with a faint glossy reflective surface. No people, no hands, no bottles, no labels, no text. Shallow depth of field, 85mm macro lens, high contrast, rich blacks, photorealistic.`,
+    },
+    video: {
+      model: I2V,
+      duration: 5,
+      cfg_scale: 0.5,
+      negative_prompt: NEG,
+      prompt: `The two crystal tumblers finish clinking in slow motion: the whisky ripples and a small splash crown rises, droplets hang in the air and drift slowly, the ice cubes rotate gently, warm amber light shimmers along the glass edges and the thin crimson rim light pulses softly. The camera pushes in very slowly and smoothly. Locked, elegant macro shot, vertical framing, slow motion, no hands, no people, no text, no labels, no cuts.`,
+    },
+  },
   brindis: {
     still: {
       aspect_ratio: "16:9",

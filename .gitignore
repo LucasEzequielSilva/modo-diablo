@@ -3,3 +3,4 @@ dist
 .env
 media/raw
 *.zip
+docs/legal-check.json

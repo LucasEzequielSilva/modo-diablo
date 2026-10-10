@@ -1,22 +1,25 @@
-// Recodifica media/raw/*.mp4 para la web. El hero se scrubea con el scroll ("Frená el tiempo"),
-// así que va con todos los cuadros keyframe (-g 1): setear currentTime es instantáneo.
+// Recodifica media/raw/*.mp4 para la web. Los clips se scrubean con el scroll ("Frená el tiempo"),
+// así que van con todos los cuadros keyframe (-g 1): setear currentTime es instantáneo.
 import { mkdirSync, existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 
+// raw → [salida, ancho, crf]
 const JOBS = {
-  brindis: { scrub: true, crf: 24 },
-  // vertido: { scrub: false, crf: 27 },
-  // niebla: { scrub: false, crf: 28 },
+  brindis: [["brindis", 1600, 24]],          // escritorio 16:9
+  "brindis-v": [["brindis-mobile", 720, 26]], // celular 9:16 (clip propio, no un recorte)
+  // vertido: [["vertido", 1280, 27]],
+  // niebla: [["niebla", 1280, 28]],
 };
 
 mkdirSync("public/video", { recursive: true });
 const ff = (args) => execFileSync("ffmpeg", ["-y", "-loglevel", "error", ...args], { stdio: "inherit" });
 
-for (const [name, { scrub, crf }] of Object.entries(JOBS)) {
-  const src = `media/raw/${name}.mp4`;
+for (const [raw, outs] of Object.entries(JOBS)) {
+  const src = `media/raw/${raw}.mp4`;
   if (!existsSync(src)) continue;
-  const common = ["-an", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-g", scrub ? "1" : "48", "-movflags", "+faststart", "-preset", "slow"];
-  ff(["-i", src, "-vf", "scale=1600:-2", ...common, "-crf", String(crf), `public/video/${name}.mp4`]);
-  ff(["-i", src, "-vf", "scale=720:-2", ...common, "-crf", String(crf + 3), `public/video/${name}-mobile.mp4`]);
-  console.log(`✓ ${name}`);
+  for (const [name, width, crf] of outs) {
+    ff(["-i", src, "-vf", `scale=${width}:-2`, "-an", "-c:v", "libx264", "-pix_fmt", "yuv420p", "-g", "1",
+        "-movflags", "+faststart", "-preset", "slow", "-crf", String(crf), `public/video/${name}.mp4`]);
+    console.log(`✓ ${name}`);
+  }
 }
